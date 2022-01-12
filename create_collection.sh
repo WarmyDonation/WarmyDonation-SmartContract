@@ -1,0 +1,1 @@
+erdpy contract call $1 --pem="/Users/pilu/Desktop/MainWallets/wallet_owner.pem" --recall-nonce --gas-limit=100000000  --value=50000000000000000 --proxy="https://gateway.elrond.com" --chain="1" --function="issueToken" --arguments 0x5761726d79446f6e6174696f6e 0x5741524d59 --send

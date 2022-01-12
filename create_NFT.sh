@@ -1,0 +1,1 @@
+erdpy contract call $1 --pem="/Users/pilu/Desktop/MainWallets/wallet_owner.pem" --recall-nonce --gas-limit=100000000 --proxy="https://gateway.elrond.com" --chain="1" --function="createNft" --arguments 0x496d6d6f7274616c2042656e 0x68747470733a2f2f697066732e696f2f697066732f516d61546a414c547a734667444655733957793850684656555a374152626d3270505645516b516d48694c4a446d --send

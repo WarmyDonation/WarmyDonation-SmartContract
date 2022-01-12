@@ -1,0 +1,12 @@
+#!/bin/bash
+
+smart_contract=$1;
+amount=$(echo "scale=0; $2*1000000000000000000" | bc)
+amount=${amount%.*}
+
+
+webhook="https://wallet.elrond.com/hook/transaction?receiver=${smart_contract}&value=${amount}&gasLimit=250000000&data=donate"
+
+
+
+open -a "Google Chrome" ${webhook}
